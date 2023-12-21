@@ -51,11 +51,7 @@ export default () => {
         Pricing
       </NavLink>
     </NavLinks>,
-    <NavLinks key={2}>
-      <PrimaryLink href="/#">
-        Hire Us
-      </PrimaryLink>
-    </NavLinks>
+    
   ];
 
   return (

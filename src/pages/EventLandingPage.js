@@ -8,7 +8,7 @@ import ContactUsForm from "components/forms/SimpleContactUs.js";
 import Footer from "components/footers/SimpleFiveColumn.js";
 
 export default () => (
-  <AnimationRevealPage>-
+  <AnimationRevealPage>
     <Hero />
     <Features />
     <Blog />
