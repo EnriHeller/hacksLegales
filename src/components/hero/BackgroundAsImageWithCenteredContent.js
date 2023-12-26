@@ -18,7 +18,7 @@ const StyledHeader = styled(Header)`
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
-  background-image: url("https://images.unsplash.com/photo-1536300007881-7e482242baa5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80");
+  background-image: url("https://www.app4legal.com/wp-content/uploads/2022/01/digital-transformation-legal-sector.png");
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
@@ -39,16 +39,13 @@ export default () => {
   const navLinks = [
     <NavLinks key={1}>
       <NavLink href="#">
-        About
+        ¿Quiénes somos?
       </NavLink>
       <NavLink href="#">
-        Blog
+        Nuestras redes
       </NavLink>
       <NavLink href="#">
-        Locations
-      </NavLink>
-      <NavLink href="#">
-        Pricing
+        Contactános
       </NavLink>
     </NavLinks>,
     
@@ -61,11 +58,11 @@ export default () => {
         <StyledHeader links={navLinks} />
         <Content>
           <Heading>
-              Book Music & Comedy Events
+              Expertos en todo tipo de 
               <br />
-              anywhere in New York
+              soluciones legales.
           </Heading>
-          <PrimaryAction>Search Events Near Me</PrimaryAction>
+          <PrimaryAction>Contactate con nosotros</PrimaryAction>
         </Content>
       </HeroContainer>
     </Container>

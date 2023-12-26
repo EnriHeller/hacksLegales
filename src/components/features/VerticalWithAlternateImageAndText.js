@@ -77,9 +77,9 @@ export default () => {
     <Container>
       <SingleColumn>
         <HeadingInfoContainer>
-          <HeadingTitle>Popular Events</HeadingTitle>
+          <HeadingTitle>¿Quienes somos?</HeadingTitle>
           <HeadingDescription>
-            Here are some of the most popular events in New York City curated by professionals.
+          Sabemos que los problemas legales pueden ser un dolor de cabeza y entendemos lo fácil que es dejarlos sin resolver. Estamos acá para ofrecerte soluciones sencillas.
           </HeadingDescription>
         </HeadingInfoContainer>
 
