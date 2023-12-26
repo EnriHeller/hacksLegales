@@ -4,6 +4,11 @@ import tw from "twin.macro";
 import { ReactComponent as SvgDotPatternIcon } from "../../images/dot-pattern.svg";
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 
+import image1 from "./../../images/ilustrations/1.png"
+import image2 from "./../../images/ilustrations/2.jpg"
+import image3 from "./../../images/ilustrations/3.jpg"
+import image4 from "./../../images/ilustrations/4.jpg"
+
 const Container = tw.div`relative`;
 
 const SingleColumn = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -19,8 +24,9 @@ const Card = styled.div(props => [
 ]);
 const Image = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
-  tw`rounded md:w-1/2 lg:w-5/12 xl:w-1/3 flex-shrink-0 h-80 md:h-144 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8`
-]);
+  'background-size: cover;', // Agregamos esta línea para que la imagen se estire y cubra el contenedor
+  tw`rounded md:w-1/2 lg:w-5/12 xl:w-1/3 flex-shrink-0 h-96 md:h-144 bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8`
+]); 
 const Details = tw.div`mt-4 md:mt-0 md:max-w-md mx-4 sm:mx-8 md:mx-4 lg:mx-8`;
 const Subtitle = tw.div`font-bold tracking-wide text-secondary-100`;
 const Title = tw.h4`text-3xl font-bold text-gray-900`;
@@ -44,32 +50,32 @@ export default () => {
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1550699026-4114bbf4fb49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
-      subtitle: "Paid",
-      title: "Loachella, NYC",
+        image1,
+      subtitle: "Finanzas",
+      title: "Salí del veraz y recuperá tu historial crediticio",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+        "Sabemos que lidiar con entidades financieras por teléfono, correo o carta documento es agotador y consume tiempo y energía. En Hacks Legales, podemos ayudarte a vencer el sistema de manera rápida y eficiente.",
+      url: "https://www.instagram.com/p/C0m-TySvT2h/?img_index=1"
     },
 
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1543423924-b9f161af87e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      subtitle: "Free",
-      title: "Rock In Rio, Upstate",
+        image2,
+      subtitle: "Consumidores",
+      title: "Hace valer tus derechos como consumidor",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+        "¡Conoce y ejerce tus derechos!. La Ley de Defensa del Consumidor establece las normas que regulan las relaciones entre proveedores y consumidores, brindando protección y defensa. Además, existen otras leyes complementarias, como la de tarjetas de crédito, lealtad comercial y metrología legal.",
+      url: "https://www.instagram.com/p/C0h5IKDAIs6/?img_index=1"
     },
 
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1509824227185-9c5a01ceba0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80",
-      subtitle: "Exclusive",
-      title: "Lollapalooza, Manhattan",
+        image3,
+      subtitle: "Trabajadores",
+      title: "Que no te pasen por arriba en el trabajo",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      url: "https://timerse.com"
+        "La ley de contrato de trabajo (Ley 20.744) es la que regula los derechos y obligaciones de los trabajadores y empleadores. Esta establece las normas generales del contrato de trabajo. También hay otras que la complementan, como la ley de jornada de trabajo, la de riesgos del trabajo, la de asociaciones sindicales.",
+      url: "https://www.instagram.com/p/C0fL3IvPbYf/"
     }
   ];
 
@@ -91,7 +97,7 @@ export default () => {
                 <Subtitle>{card.subtitle}</Subtitle>
                 <Title>{card.title}</Title>
                 <Description>{card.description}</Description>
-                <Link href={card.url}>See Event Details</Link>
+                <Link href={card.url}>Quiero saber más</Link>
               </Details>
             </Card>
           ))}
