@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/hacksLegales/static/css/main.f4ca164f.css",
+    "main.js": "/hacksLegales/static/js/main.65bf01d6.js",
+    "static/js/496.f35ff1d8.chunk.js": "/hacksLegales/static/js/496.f35ff1d8.chunk.js",
+    "static/media/hackslegales.png": "/hacksLegales/static/media/hackslegales.b49ab890a7f394cf6586.png",
+    "static/media/1.png": "/hacksLegales/static/media/1.a31c327ea84144e830b3.png",
+    "static/media/4.jpg": "/hacksLegales/static/media/4.07ae3fce40373599af9e.jpg",
+    "static/media/logo.svg": "/hacksLegales/static/media/logo.704c1bab14999dfb5a07431482dd291e.svg",
+    "static/media/2.jpg": "/hacksLegales/static/media/2.8df3c0b40649c88b171e.jpg",
+    "static/media/3.jpg": "/hacksLegales/static/media/3.7aaebbd7d4742464087d.jpg",
+    "static/media/dot-pattern.svg": "/hacksLegales/static/media/dot-pattern.e52f8ce47afe6f572aef5cbf0389564c.svg",
+    "index.html": "/hacksLegales/index.html",
+    "static/media/svg-decorator-blob-3.svg": "/hacksLegales/static/media/svg-decorator-blob-3.5c5693940b53e4c42dd5315bbcc013ac.svg",
+    "static/media/quotes-l.svg": "/hacksLegales/static/media/quotes-l.ee0291a6d90d88e43fb37593b788e53b.svg",
+    "static/media/quotes-r.svg": "/hacksLegales/static/media/quotes-r.d9e07ae64ba56fe361bdb3e7ffd69f16.svg",
+    "static/media/svg-decorator-blob-4.svg": "/hacksLegales/static/media/svg-decorator-blob-4.9324915942bd8e5a09f879aafff58461.svg",
+    "static/media/twitter-icon.svg": "/hacksLegales/static/media/twitter-icon.82807cb8b91086f2ad77332f06cf0501.svg",
+    "static/media/svg-decorator-blob-5.svg": "/hacksLegales/static/media/svg-decorator-blob-5.cce5050c12fc27d5100c7e339ee91197.svg",
+    "static/media/svg-decorator-blob-1.svg": "/hacksLegales/static/media/svg-decorator-blob-1.4b261446db5fd4a412fa267ea43e2824.svg",
+    "static/media/youtube-icon.svg": "/hacksLegales/static/media/youtube-icon.432d964994135c61441ba21c9f9b95e1.svg",
+    "static/media/arrow-right-2-icon.svg": "/hacksLegales/static/media/arrow-right-2-icon.024350181aec0986c7a41fb4913a32ac.svg",
+    "static/media/arrow-left-2-icon.svg": "/hacksLegales/static/media/arrow-left-2-icon.de7a0f384ba705a483b5ade50daecd3a.svg",
+    "static/media/menu.svg": "/hacksLegales/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
+    "static/media/x.svg": "/hacksLegales/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
+    "static/media/facebook-icon.svg": "/hacksLegales/static/media/facebook-icon.cc908d417a340b8c3cf0a564cab79da0.svg",
+    "main.f4ca164f.css.map": "/hacksLegales/static/css/main.f4ca164f.css.map",
+    "main.65bf01d6.js.map": "/hacksLegales/static/js/main.65bf01d6.js.map",
+    "496.f35ff1d8.chunk.js.map": "/hacksLegales/static/js/496.f35ff1d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4ca164f.css",
+    "static/js/main.65bf01d6.js"
+  ]
+}
