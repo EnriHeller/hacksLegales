@@ -197,7 +197,7 @@ module.exports = {
     },
     borderColor: theme => ({
       ...theme('colors'),
-      DEFAULT: theme('colors.gray.transparent', 'currentColor'),
+      DEFAULT: theme('colors.transparent', 'currentColor'),
     }),
     borderRadius: {
       none: '0',
